@@ -1,16 +1,54 @@
-# askmeanything_flutter
+# Ask Me Anything
 
-A new Flutter project.
+Introductory random-response Flutter exercise.
+
+## Overview
+
+Introductory random-response Flutter exercise. The description and capabilities in this document are limited to behavior that can be verified in the repository source.
+
+## Key Features
+
+- Focused tutorial-scale application workflow
+
+## Tech Stack
+
+- Flutter
+- Dart
+
+## Architecture
+
+Small Flutter/Android practice project.
+
+## Project Structure
+
+- `lib/` — application source
+- `android/, ios/` — platform projects
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Run the commands appropriate to the project root:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter pub get
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Testing
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter test
+```
+
+## Technical Highlights
+
+- Focused mobile-development practice
+
+## Possible Improvements
+
+- Add or expand automated tests around core workflows.
+- Document deployment and environment-specific configuration.
+- Add CI checks for build, linting, and tests where they are not already present.
+
+## Verification Notes
+
+This is a tutorial/practice-scale repository and should not be presented as a substantial independent product.
